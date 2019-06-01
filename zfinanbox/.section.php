@@ -1,0 +1,6 @@
+<?
+$sSectionName = "zFinanbox";
+$arDirProperties = Array(
+
+);
+?>
