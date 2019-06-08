@@ -40,6 +40,14 @@ $arUrlRewrite=array (
     'PATH' => '/e-store/books/reviews/index.php',
     'SORT' => 100,
   ),
+  24 => 
+  array (
+    'CONDITION' => '#^/eshop/personal/order/#',
+    'RULE' => '',
+    'ID' => 'bitrix:sale.personal.order',
+    'PATH' => '/eshop/personal/order/index.php',
+    'SORT' => 100,
+  ),
   10 => 
   array (
     'CONDITION' => '#^/e-store/xml_catalog/#',
@@ -104,12 +112,12 @@ $arUrlRewrite=array (
     'PATH' => '/personal/lists/index.php',
     'SORT' => 100,
   ),
-  8 => 
+  25 => 
   array (
-    'CONDITION' => '#^/e-store/books/#',
+    'CONDITION' => '#^/eshop/personal/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/e-store/books/index.php',
+    'ID' => 'bitrix:sale.personal.section',
+    'PATH' => '/eshop/personal/index.php',
     'SORT' => 100,
   ),
   13 => 
@@ -118,6 +126,22 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:photogallery',
     'PATH' => '/content/photo/index.php',
+    'SORT' => 100,
+  ),
+  8 => 
+  array (
+    'CONDITION' => '#^/e-store/books/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/e-store/books/index.php',
+    'SORT' => 100,
+  ),
+  23 => 
+  array (
+    'CONDITION' => '#^/eshop/catalog/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/eshop/catalog/index.php',
     'SORT' => 100,
   ),
   7 => 
@@ -152,12 +176,28 @@ $arUrlRewrite=array (
     'PATH' => '/content/faq/index.php',
     'SORT' => 100,
   ),
+  26 => 
+  array (
+    'CONDITION' => '#^/eshop/store/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog.store',
+    'PATH' => '/eshop/store/index.php',
+    'SORT' => 100,
+  ),
   19 => 
   array (
     'CONDITION' => '#^/club/forum/#',
     'RULE' => '',
     'ID' => 'bitrix:forum',
     'PATH' => '/club/forum/index.php',
+    'SORT' => 100,
+  ),
+  22 => 
+  array (
+    'CONDITION' => '#^/eshop/news/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/eshop/news/index.php',
     'SORT' => 100,
   ),
   4 => 
